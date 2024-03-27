@@ -1,1 +1,22 @@
+
+#Virtual Environment
 .venv
+
+#Python 
+__pycache__/
+*.pyc 
+*.pyo
+
+*.egg-info
+dist/
+build/
+
+.vscode/*
+.history/
+
+*~
+*.bak
+*.swp
+*.swo
+
+.ipynb_checkpoints
