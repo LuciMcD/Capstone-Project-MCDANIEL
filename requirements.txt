@@ -1,13 +1,8 @@
-
 pandas 
 numpy
+
 matplotlib
 seaborn
 
 ipykernel
 jupyterlab
-voila
-
-scipy
-stats
-statistics
