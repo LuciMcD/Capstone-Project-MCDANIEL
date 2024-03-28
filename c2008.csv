@@ -1,4 +1,4 @@
-,state,vet_pop,overall_pop_18,vet_pop_p,vet_suicides,all_suicides,vet_suicides_p,vet_rate,civ_rate
+col1,state,vet_pop,overall_pop_18,vet_pop_p,vet_suicides,all_suicides,vet_suicides_p,vet_rate,civ_rate
 0,Alabama,402072,3521323,0.11,138,604,0.23,34.32,14.94
 1,Alaska,67833,486235,0.14,27,169,0.16,39.80,33.94
 2,Arizona,551053,4768630,0.12,233,972,0.24,42.28,17.52
