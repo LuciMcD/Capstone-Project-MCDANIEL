@@ -6,3 +6,5 @@ seaborn
 
 ipykernel
 jupyterlab
+
+scikit-learn

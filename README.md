@@ -32,10 +32,15 @@ Install everything in requirements.txt.
 
 pip install -r requirements.txt
 
-### EDAnotebook.pynb
-This jupyter notebook is running the Exploratory Data Analysis. There is summary statistics report and scatter plots showing correlations between the different variables. 
+### EDAnotebook.ipynb
+This jupyter notebook is running the Exploratory Data Analysis. There is summary statistics report and scatter plots showing correlations between the different variables. There are also two bar charts showing relationships in the data as well. Another file is also created called averaages.csv to be used in the model building process. So far we can see an increase in the number of veteran suicides over the time frame in the data. The following models will help to prove this to be correct or incorrect.
+
+### LinearRegressionModel.ipynb
+This notebook contains the linear regression model for this project. The goal of the model is to predict the number of veteran suicides in 2025 and beyond. 
+
+### Another model
 
 
-The charts included are.....and tell us....
+
 
 Conclusion:.....
