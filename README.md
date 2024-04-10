@@ -16,6 +16,7 @@ https://www.statista.com/statistics/754401/suicide-rates-among-vha-patients/
 Data has been cleaned in the following ways:
     -All of the data files were cleaned in Excel. The original data files were fairly clean to begin with. The only changes made were formatting values to two decimal places and deleting unnecessary columns in Excel. The files were all saved in the CSV format so it was easiest to open them in Excel and format them that way instead of using Pyton code.
     -All the data files that begin with c, are the cleaned data files. The original data files are still included in this project. 
+    -Another folder of cleaned data was created to isolate the number of veteran suicides in each state per year. This folder is called "final cleaned data". 
 
 #### Setting up the Virtual Environment
 A virtual environment needs to be created and activated.
@@ -33,10 +34,10 @@ Install everything in requirements.txt.
 pip install -r requirements.txt
 
 ### EDAnotebook.ipynb
-This jupyter notebook is running the Exploratory Data Analysis. There is summary statistics report and scatter plots showing correlations between the different variables. There are also two bar charts showing relationships in the data as well. Another file is also created called averaages.csv to be used in the model building process. So far we can see an increase in the number of veteran suicides over the time frame in the data. The following models will help to prove this to be correct or incorrect.
+This jupyter notebook is running the Exploratory Data Analysis. There is a summary statistics report and scatter plots showing correlations between the different variables. There are also two bar charts showing relationships in the data as well. Two more files are also created called averages.csv and rates.csv to be used in the model building process. So far we can see an increase in the number of veteran suicides over the time frame in the data. The following models will help to prove this to be correct or incorrect.
 
 ### LinearRegressionModel.ipynb
-This notebook contains the linear regression model for this project. The goal of the model is to predict the number of veteran suicides in 2025 and beyond. 
+This notebook contains the linear regression model for this project. The goal of the model is to predict the number of veteran suicides in 2025 and beyond. The file run through this model is 
 
 ### Another model
 
