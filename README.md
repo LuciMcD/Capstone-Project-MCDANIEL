@@ -37,11 +37,12 @@ pip install -r requirements.txt
 This jupyter notebook is running the Exploratory Data Analysis. There is a summary statistics report and scatter plots showing correlations between the different variables. There are also two bar charts showing relationships in the data as well. Two more files are also created called averages.csv and rates.csv to be used in the model building process. So far we can see an increase in the number of veteran suicides over the time frame in the data. The following models will help to prove this to be correct or incorrect.
 
 ### LinearRegressionModel.ipynb
-This notebook contains the linear regression model for this project. The goal of the model is to predict the number of veteran suicides in 2025 and beyond. The file run through this model is 
+This notebook contains the linear regression model for this project. The goal of the model is to predict the number of veteran suicides in 2025 and beyond. The model is run  on averages.csv and rates.csv. The independent variable for both datasets is "year" and the dependent variable for averages is the average number of veteran suicides. The dependent variable for rates.csv is the average rate of veteran suicide. The train/test split is 80:20. Through scatterplots and a line graph, it's clear that the rate and average number of veteran suicides will continue to increase into the future without any intervention. This model fit well enough for such a small dataset. The RMSE was 2.31 for the first dataset and 0.45 for the second set. 
 
-### Another model
+### MultipleLinearRegression.ipynb
+This notebook employs a multiple linear regression model. The dataset c2005.csv was run in this model because there were more variable options. Multiple Linear regression allows for  multilple independent variables. The train/test split in this model was 70:30. The first set of independent variables were vet_pop, and vet_suicides. The dependent variable was vet_rate. Running the model with those variables resulted in a R^2 value of 0.612. The condition number was large which shows multicolinearity. This means that the independent variables were not independent of each other which skews the results. The model was run again with independent variables vet_pop, and civ_rate, and dependent variable vet_rate. The results were a little better here with an R^2 value of 0.416. The condition number was still large so there is some multicolinearity with this as well. 
+
+### Conclusion
+In conclusion, the linear regression model provided the best results. The number of veteran suicides will continue to gradually increase into the future without intervention. The hope is that intervention takes place and that this report is proven wrong. If you or anyone you know is struggling with suicidal thoughts call 988. For emergency situations call 911. 
 
 
-
-
-Conclusion:.....
