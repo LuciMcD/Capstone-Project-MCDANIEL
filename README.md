@@ -45,4 +45,13 @@ This notebook employs a multiple linear regression model. The dataset c2005.csv 
 ### Conclusion
 In conclusion, the linear regression model provided the best results. The number of veteran suicides will continue to gradually increase into the future without intervention. The hope is that intervention takes place and that this report is proven wrong. If you or anyone you know is struggling with suicidal thoughts call 988. For emergency situations call 911. 
 
+![image](https://github.com/LuciMcD/Capstone-Project-MCDANIEL/assets/136775855/265bbe9b-d981-475c-b7eb-b4f2ed99e42c)
+![image](https://github.com/LuciMcD/Capstone-Project-MCDANIEL/assets/136775855/de8a2c55-1d74-45e8-a484-a10790c82db7)
+![image](https://github.com/LuciMcD/Capstone-Project-MCDANIEL/assets/136775855/f79eaa5f-d143-4f17-81e3-8cc26d0f846d)
+![image](https://github.com/LuciMcD/Capstone-Project-MCDANIEL/assets/136775855/73eb1135-8085-4e43-8fb3-edae29eb505c)
+
+
+
+
+
 
